@@ -1,0 +1,217 @@
+body {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background: #FFFFFF;
+}
+
+#main {
+    position: absolute;
+    width: 305px;
+    height: 279px;
+    left: 97px;
+    top: 70px;
+}
+
+#input_area1 {
+    position: absolute;
+    width: 279px;
+    height: 31px;
+    left: 0px;
+    top: 0px;
+}
+
+#input_area2 {
+    position: absolute;
+    width: 305px;
+    height: 31px;
+    left: 0px;
+    top: 55px;
+}
+
+#input_area3 {
+    position: absolute;
+    width: 297px;
+    height: 31px;
+    left: 0px;
+    top: 110px;
+}
+
+#m {
+    position: absolute;
+    width: 230px;
+    height: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#n {
+    position: absolute;
+    width: 260px;
+    height: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#max {
+    position: absolute;
+    width: 247px;
+    height: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+}
+
+#create_area {
+    position: absolute;
+    width: 260px;
+    height: 50px;
+    left: 0px;
+    top: 190px;
+    background: rgba(240, 218, 15, 0.5);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+#input_m {
+    position: absolute;
+    width: 37px;
+    height: 31px;
+    left: 235px;
+    top: 20px;
+    padding-left: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#input_n {
+    position: absolute;
+    width: 37px;
+    height: 31px;
+    left: 250px;
+    top: 21px;
+    padding-left: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#input_max_number {
+    position: absolute;
+    width: 37px;
+    height: 31px;
+    left: 240px;
+    top: 23px;
+    padding-left: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 0.1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+#table_area {
+    position: absolute;
+    top: 76px;
+    left: 598px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid grey;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    width: 37px;
+    height: 31px;
+    text-align: center;
+}
+
+#input_res {
+    position: relative;
+    left: 152px;
+    top: -44px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    width: 37px;
+    height: 31px;
+}
+
+.hidden-area {
+    visibility: hidden;
+}
+
+#error_message {
+    opacity: 0;
+    transition: opacity 0.5s;
+    display: inline-block;
+    letter-spacing: .2px;
+    font-size: 14px;
+    border-radius: 100px;
+    margin: 15px 0;
+    padding: 2px 10px;
+    background: rgb(48, 55, 65, 0.7);
+    border: 1px solid rgb(48, 55, 65, 0.1);
+    color: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+#error_message.visible {
+    opacity: 1;
+}
+
+#error_message.visble {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+#error_area {
+    position: relative;
+    top: -50px;
+}

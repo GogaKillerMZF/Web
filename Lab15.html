@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab15</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="main">
+        <section id='input_area1'>
+            <p id='m' class="text-line">Количество строк m = </p>
+            <input class="input-line" type="text" id="input_m" value="5">
+        </section>
+        <section id='input_area2'>
+            <p id='n' class="text-line">Количество столбов n = </p>
+            <input class="input-line" type="text" id="input_n" value="6">
+        </section>
+        <section id='input_area3'>
+            <p id='max' class="text-line">Максимальное число = </p>
+            <input class="text-line" type="text" id="input_max_number" value="9">
+        </section>
+        <button id="create_area" class="btn">Создать область</button>
+        <div id="error_area">
+            <p id="error_message" class="error-message"></p>
+        </div>
+    </div>
+    <!-- 			
+            -->
+    <div id="table_area" class="hidden-area">
+        <table id="table"></table>
+        <section id="result_area">
+            <p id='result' class="text-line">Количество ходов = </p>
+            <p id='input_res' class="='text-line"></p>
+        </section>
+    </div>
+    <script src="scr.js"></script>
+</body>
+
+</html>
